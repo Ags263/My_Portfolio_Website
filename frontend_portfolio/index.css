@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+:root {
+    --font-base: "DM Sans", sans-serif;
+    --primary-bg: #ffffff;
+    --secondary-bg: #f4f6fa;
+    --card-bg: #ffffff;
+    --card-border: #e0e7ef;
+    --primary-color: #ffffff;
+    --secondary-color: #2193b0;
+    --accent-color: #00c57d;
+    --black-color: #030303;
+    --white-color: #ffffff;
+    --gray-color: #6b7688;
+    --lightGray-color: #edf2f8;
+    --text-color: #030303;
+    --text-secondary: #6b7688;
+    --button-bg: #313bac;
+    --button-text: #fff;
+    --shadow: 0 4px 24px rgba(49,59,172,0.08);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary-bg);
+    color: var(--text-color);
+    font-family: var(--font-base) !important;
+    transition: background 0.3s, color 0.3s;
+}
+
+img {
+    pointer-events: none;
+}
+
+body, .app, .p-text, .bold-text, .head-text, .app__navbar-links a, .app__navbar-menu ul li a {
+    font-family: var(--font-base) !important;
+    color: black !important;
+}
+
+#certifications h2 {
+    padding-top: 8rem;
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--black-color);
+    text-transform: capitalize;
+    /* Adjust the value as needed */
+}
+
+#education h2 {
+    padding-top: 4rem;
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--black-color);
+    text-transform: capitalize;
+    /* Adjust the value as needed */
+}
